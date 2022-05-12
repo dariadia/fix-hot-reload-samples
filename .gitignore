@@ -1,0 +1,13 @@
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+*.log
+*.vscode
+.idea
+.env
+.env.docker
+.cache-loader
+node_modules
+build
+.nyc_output
+coverage
