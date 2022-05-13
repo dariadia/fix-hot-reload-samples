@@ -2,6 +2,7 @@ const path = require('path')
 const webpack = require('webpack') 
 
 module.exports = {
+  mode: 'development',
   context: path.join(__dirname, 'js'),
   entry: [
     'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
